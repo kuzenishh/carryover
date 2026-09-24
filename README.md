@@ -30,7 +30,7 @@ instead of at zero.
 ## Install
 
 ```bash
-curl -O https://raw.githubusercontent.com/kuzenishh/carryover/mainddd/carryover.py
+curl -O https://raw.githubusercontent.com/kuzenishh/carryover/main/carryover.py
 chmod +x carryover.py
 ```
 
