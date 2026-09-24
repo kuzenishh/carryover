@@ -7,22 +7,7 @@ Gone. Tomorrow you teach it all over again.
 
 `carryover` keeps that stuff. One file, no dependencies.
 
-```
-$ carryover brief
-
-# Project memory
-
-## Rules (learned the hard way)
-- never use flask here, the project is FastAPI
-- don't touch the migrations folder
-- the VPS only has 1GB ram, no docker builds on it
-
-## Dead ends (already tried, did not work)
-- we already tried polling the websocket, it drops every 40 minutes
-
-## Decisions (settled, do not relitigate)
-- we're going with redis pubsub for this
-```
+![demo](https://raw.githubusercontent.com/kuzenishh/kuzenishh/mainddd/carryover-demo.gif)
 
 That block goes into your next session. The agent starts where you left off
 instead of at zero.
